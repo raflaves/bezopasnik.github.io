@@ -1,0 +1,214 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-color: black;
+
+    font-family: 'Russo one';
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+
+
+/* типо наше название */
+.blok {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 15px;
+
+}
+
+
+
+
+/* шапка */
+.header {
+
+    width: 100%;
+    background:url("../img/r2.png.png") center no-repeat;
+    filter: blur(0.2px);
+    background-size: cover;
+    height: CALC(95vh - 15px + 48px);
+    
+}
+
+
+.logotip {
+    font-size: 32px;
+    color:white;
+
+}
+
+.nav {
+    font-size: 12px;
+    text-transform: uppercase;
+
+}
+
+
+
+.nav_link {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.nav_link:hover{
+    transform: translateY(-2px);
+}
+
+
+.header__up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 80px;
+    flex-wrap: nowrap;
+}
+
+.img-wrap{
+    margin: 10px;
+    min-width: 300px;
+    min-height: 300px;
+    
+}
+
+
+
+#img1{
+    background:url("../img/qrcode5.png") center no-repeat;
+    background-size: contain;
+}
+
+
+
+#img2{
+    background:url("../img/teleram2.png") center no-repeat;
+    background-size: contain;
+    min-width: 500px;
+    min-height: 500px;
+}
+
+
+
+.text{
+    width: 450px;
+    margin: 30px;
+    color: white;
+    font-size: 16px;
+
+}
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-transform: uppercase;
+
+    
+}
+
+.link {
+    transition: all .4s ease-in;
+}
+
+.link:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+}
+
+
+.wor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 80px;
+    flex-wrap: wrap;   
+}
+
+.team {
+    width: 300px;
+    margin: 20px;
+    font-size: 10px;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
+    color: #cc5a9d;
+    
+
+}
+
+.onas {
+    font-size: 14px;
+    text-align: center;
+}
+
+.sslk {
+    width: 300px;
+    margin: 20px;
+    font-size: 10px;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
+    color: #cc5a9d;
+}
+
+
+.rat {
+    width: 300px;
+    margin: 20px;
+    font-size: 10px;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
+    color: #cc5a9d;
+} 
+
+
+.pomoch{
+    font-size: 14px;
+    text-align: center; 
+}
+
+
+
+#imgs1 {
+    background:url("../img/Telegram.png") center no-repeat;
+    background-size: contain;
+    min-width: 130px;
+    min-height: 130px;
+}
+
+
